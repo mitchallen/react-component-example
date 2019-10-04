@@ -1,0 +1,16 @@
+{
+    "extension": [
+      ".ts"
+    ],
+    "exclude": [
+      "**/*.d.ts",
+      "test/",
+      "dist*/test/"
+    ],
+    "require": [
+    ],
+    "sourceMap": true,
+    "instrument": true,
+    "temp-directory": "./coverage/.nyc_output",
+    "report-dir": "./coverage/.nyc_output"
+  }
